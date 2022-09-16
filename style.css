@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+.nav{
+    display: block;
+}
+
+.conatiner{
+    background-image: url(images/slika4.jpg);
+    height: 600px;
+    width: 100%;
+}
+
+.projekat{
+    margin-bottom:20px;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.footer{
+    background-color: blanchedalmond;
+    margin-top: 5%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.prednja{
+    background-image: url("images/pomocna slika.png");
+}
+
+.svg-r{
+    margin-top: 30%;
+    margin-left: 24%;
+}
+
+.poruka{
+    height: 200px;
+    width: 100%;
+}
+
+input{
+    margin: 10px 0px 10px 0px;
+}
