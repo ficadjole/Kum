@@ -1,7 +1,11 @@
 *{
     box-sizing: border-box;
+    font-family: 'Reem Kufi Fun', sans-serif;
 }
 
+body{
+    background-color: rgba(164, 216, 81, 0.226);
+}
 .nav{
     display: block;
 }
@@ -15,7 +19,6 @@
 .projekat{
     margin-bottom:20px;
     margin-top: 20px;
-    border: 1px solid black;
     padding: 5px;
 }
 
@@ -30,6 +33,8 @@ a{
 
 .prednja{
     background-image: url("images/pomocna slika.png");
+    background-repeat: no-repeat;
+    height: 800px;
 }
 
 .svg-r{
@@ -44,4 +49,44 @@ a{
 
 input{
     margin: 10px 0px 10px 0px;
+}
+
+.title{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 300px;
+    width: 600px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 300px;
+    width: 600px;
+}
+
+
+.bs-example{
+    margin: 200px 150px 0;
+}
+
+.bs-example button{
+    margin: 10px;
+}
+
+ul{
+    list-style: none;
+    padding: 0px !important;
+}
+
+@media (max-width:992px){
+    .second-btn{
+        margin-top: 5%;
+    }
 }

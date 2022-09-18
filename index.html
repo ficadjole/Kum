@@ -6,13 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <div class="nav">
+    <!--     <div class="nav">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Kolasinska 31</a>
@@ -36,13 +39,8 @@
                 </div>
             </div>
         </nav>
-    </div>
+    </div> -->
 
-    <!--slider-->
-
-    <div class="conatiner">
-        <p>TESKST</p>
-    </div>
     <!--main-->
 
     <div class="container-fluid">
@@ -58,38 +56,165 @@
             <div class="col-md-8 px-4">
 
 
-                <!--Mini ads-->
-                <h1 style="text-align: center;">Nasi projekti</h1>
+
+                <h1 class="title">Kolašinska 31</h1>
 
                 <div class="projekat">
                     <div class="row">
                         <div class="col-md-6">
-                            <img src="images/slika1.jpg" alt="" style="width: 300px; height: 300px;">
+                            <div id="carouselExampleControls" class="carousel slide carousel-fade"
+                                data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="images/image1.jpg" class="d-block w-100" alt="img1">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/image2.jpg" class="d-block w-100" alt="img2">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/image3.jpg" class="d-block w-100" alt="img3">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
                         </div>
                         <div class="col-md-6">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem odio voluptas
-                                ducimus itaque, qui eveniet alias praesentium sit quos. Ut molestias tempore ipsum quam
-                                quoatque, praesentium sunt dignissimos ipsam?
-                            </p>
+                            <ul>
+                                <li>Kolašinska 31</li>
+                                <li>Kraj radova: Oktobar 2023.</li>
+                            </ul>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <a href="tel://0644846900" class="btn btn-dark btn-info text-color">Pozovite nas</a>
+                                </div>
+                                <div class="col-md-6 second-btn">
+                                    <a href="pdfs/Katalog Kolasinska 31.pdf" download="Katalog Kolasinska 31"
+                                        class="btn btn-dark btn-info text-color">Preuzmite katalog</a>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-md-6">
+                                    <a href="mailto:info@kolasinska31.rs" class="btn btn-dark btn-info text-color">Send
+                                        Email</a>
+                                </div>
+                            </div>
 
-                            <a href="stan.html" class="btn-lg btn-info text-color">Prikaz</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="projekat2">
+                <div class="container3">
                     <div class="row">
-                        <div class="col-md-6">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem odio voluptas
-                                ducimus itaque, qui eveniet alias praesentium sit quos. Ut molestias tempore ipsum quam
-                                quoatque, praesentium sunt dignissimos ipsam?
-                            </p>
-                            <a href="stan.html" class="btn-lg btn-info text-color">Prikaz</a>
+                        <div class="col-md-6 prednja">
+                            <svg class="svg-r" width="25" height="25">
+                                <a class="btn" type="button" data-toggle="popover" data-container="body"
+                                    title="image1" data-placement="right">
+                                    <circle cx="17.5" cy="17.5" r="10" fill="yellow" />
+                                </a>
+                            </svg>
                         </div>
-                        <div class="col-md-6">
-                            <img src="images/slika1.jpg" alt="" style="width: 300px; height: 300px; float: right;">
+                        <div class="col-md-6 prednja">
+
                         </div>
                     </div>
+
+                </div>
+
+
+
+                <!--collapse-->
+
+                <div class="container2">
+                    <p>
+                        <a class="btn btn-dark" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                            aria-expanded="false" aria-controls="collapseExample">
+                            Lokacija
+                        </a>
+                        <button class="btn btn-dark" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                            Kvalitet gradnje
+                        </button>
+                        <button class="btn btn-dark" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">
+                            Placanje
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                            <p>Objekat je smešten u mirnom delu Vračara, prekoputa parka Koče Anđelkovića što novim
+                                stanarima obezbeđuje trajno dobar pogled.</p>
+
+                            <p>Pozicioniran u blizini Auto-puta E75 i Južnog bulevara svojim novim stanarima omogućava
+                                odličnu povezanost sa svim delovima grada.</p>
+
+                            <p>
+                                U pogledu edukacije i brige o deci u blizini objekta nalaze se vrtić, osnovna škola
+                                Kralj
+                                Petar Drugi, Gimnazija, sportski tereni, Centar za likovno obrazovanje i dr.
+                            </p>
+
+                            <p>
+                                U blizini objekta takođe se nalaze supermarketi, pošta, apoteke, pijaca
+                            </p>
+
+                            <p>
+                                Objekat je udaljen 500m do Kalenić pijace i 1km od Hrama Svetog Save.
+                            </p>
+
+                            <div class="mapouter">
+                                <div class="gmap_canvas"><iframe width="600" height="300" id="gmap_canvas"
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2831.537398783783!2d20.485876715444128!3d44.790235586180415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a707ccc0af8bb%3A0xc0f3ad746e926de5!2sKola%C5%A1inska%2031%2C%20Beograd!5e0!3m2!1sen!2srs!4v1663496979498!5m2!1sen!2srs"
+                                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                                    <a href="https://putlocker-is.org"></a>
+                                    <br>
+                                    <a href="https://www.embedgooglemap.net">map widgets for websites</a>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="collapse" id="collapseExample2">
+                        <div class="card card-body">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Troslojni hrastov parket</li>
+                                <li class="list-group-item">Uvozna keramika</li>
+                                <li class="list-group-item">Sestokomorna PVC fasadna stolarija u boji</li>
+                                <li class="list-group-item">Smart sistem centralnog grejanja sa kalorimetrom</li>
+                                <li class="list-group-item">Dizajnirani gelenderi</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="collapse" id="collapseExample4">
+                        <div class="card card-body">
+                            <p>Cena od 2600-3300 plus PDV, u zavisnosti od spratnosti i dinamike isplate</p>
+                            Mogućnost kupovine parking mesta u zatvorenoj garaži
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="container6">
+                    <form target="_blank" action="https://formsubmit.co/263be7cafa6375eaf01263f75f9bda42" method="POST">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="Ime i prezime" name="Ime i prezime" class="form-control" placeholder="Vase ime"
+                            required>
+                        <input type="email" name="email" class="form-control" placeholder="Vasa e-posta" required>
+                        <input type="text" name="Naslov poruke" class="form-control" placeholder="Naslov poruke"
+                            required>
+                        <input class="poruka" type="text" name="Poruka" class="form-control" placeholder="Vasa poruka"
+                            required>
+                        <button type="submit" class="btn btn-dark btn-block">Submit Form</button>
+                    </form>
                 </div>
 
             </div>
@@ -117,13 +242,13 @@
                 </div>
                 <div class="col-md-4 col-lg-4 pt-4 text-center footer-top-content">
                     <a href="tel://0612343144">
-                        <img src="images/question.png" alt="question">
+                        <img src="images/phone.png" alt="question">
                     </a>
                     <p class="mt-2">Telefon</p>
                 </div>
                 <div class="col-md-4 col-lg-4 pt-4 text-center footer-top-content">
-                    <a href="contact.html">
-                        <img src="images/question.png" alt="question">
+                    <a href="mailto:info@kolasinska31.rs">
+                        <img src="images/email.png" alt="question">
                     </a>
                     <p class="mt-2">Email</p>
                 </div>
@@ -137,6 +262,8 @@
     </script>
     <script src="js/bootstrap.min.js"></script>
     <script src="java.js"></script>
+
+
 </body>
 
 </html>
