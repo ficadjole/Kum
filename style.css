@@ -23,11 +23,6 @@ body {
     padding: 5px;
 }
 
-.footer {
-    background-color: blanchedalmond;
-    margin-top: 5%;
-}
-
 a {
     text-decoration: none;
 }
@@ -57,7 +52,7 @@ input {
     margin-bottom: 5%;
 }
 .title1{
-    margin-top: 5%;
+    margin-top: 2%;
     text-align: center;
 }
 
@@ -85,11 +80,6 @@ ul {
     background-image: url("images/banner2.png");
     height: 100%;
     opacity: 0.4;
-}
-
-
-.title {
-    
 }
 
 .banner-pd {
