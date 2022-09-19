@@ -87,6 +87,7 @@ ul {
 }
 
 
+
 .titles {
     border-bottom: 2px solid #fdc90e;
 }
@@ -127,6 +128,9 @@ ul {
     .banner2 {
         display: none;
     }
+    .btn-down{
+        margin-top: 2%;
+    }
 }
 
 @media (max-width:450px) {
@@ -138,5 +142,7 @@ ul {
     .banner2 {
         display: none;
     }
-
+    .btn-down{
+        margin-top: 2%;
+    }
 }
