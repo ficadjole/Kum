@@ -54,8 +54,11 @@ input {
 
 .title {
     text-align: center;
-    margin-top: 5%;
     margin-bottom: 5%;
+}
+.title1{
+    margin-top: 5%;
+    text-align: center;
 }
 
 .bs-example {
