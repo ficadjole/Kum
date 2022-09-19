@@ -1,122 +1,147 @@
-*{
+* {
     box-sizing: border-box;
     font-family: 'Reem Kufi Fun', sans-serif;
 }
 
-body{
+body {
     background-color: rgba(164, 216, 81, 0.226);
 }
-.nav{
+
+.nav {
     display: block;
 }
 
-.conatiner{
+.conatiner {
     background-image: url(images/slika4.jpg);
     height: 600px;
     width: 100%;
 }
 
-.projekat{
-    margin-bottom:20px;
+.projekat {
+    margin-bottom: 20px;
     margin-top: 20px;
     padding: 5px;
 }
 
-.footer{
+.footer {
     background-color: blanchedalmond;
     margin-top: 5%;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.prednja{
+.prednja {
     background-image: url("images/pomocna slika.png");
     background-repeat: no-repeat;
-    height: 800px;
+    height: 750px;
 }
 
-.svg-r{
+.svg-r {
     margin-top: 30%;
     margin-left: 24%;
 }
 
-.poruka{
+.poruka {
     height: 200px;
     width: 100%;
 }
 
-input{
+input {
     margin: 10px 0px 10px 0px;
 }
 
-.title{
+.title {
     text-align: center;
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
+.bs-example {
+    margin: 200px 150px 0;
+}
+
+.bs-example button {
+    margin: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0px !important;
+}
+
+.banner1 {
+    background-image: url("images/banner1.png");
+    height: 100%;
+    width: 100%;
+}
+
+.banner2 {
+    background-image: url("images/banner2.png");
+    height: 100%;
+}
+
+
+.title {
+    background-image: url("images/header.png");
+}
+
+.banner-pd {
+    padding: 0px;
+}
+
+
+.titles {
+    border-bottom: 2px solid #fdc90e;
+}
+
 .mapouter {
     position: relative;
     text-align: right;
-    height: 300px;
-    width: 600px;
+    width: 100%;
+    height: 400px;
 }
 
 .gmap_canvas {
     overflow: hidden;
     background: none !important;
-    height: 300px;
-    width: 600px;
+    width: 100%;
+    height: 400px;
 }
 
-
-.bs-example{
-    margin: 200px 150px 0;
+.gmap_iframe {
+    height: 400px !important;
 }
 
-.bs-example button{
-    margin: 10px;
+.btn-style{
+    border-radius: 0px;
+    
 }
 
-ul{
-    list-style: none;
-    padding: 0px !important;
-}
-
-@media (max-width:992px){
-    .second-btn{
+@media (max-width:992px) {
+    .second-btn {
         margin-top: 5%;
     }
-    
-    .mapouter {
-        position: relative;
-        text-align: right;
-        height: 300px;
-        width: 300px;
+
+
+    .banner1 {
+        display: none;
     }
-    
-    .gmap_canvas {
-        overflow: hidden;
-        background: none !important;
-        height: 300px;
-        width: 400px;
+
+    .banner2 {
+        display: none;
     }
 }
 
-@media (max-width:450px){
-    .mapouter {
-        position: relative;
-        text-align: right;
-        height: 300px;
-        width: 300px;
+@media (max-width:450px) {
+
+    .banner1 {
+        display: none;
     }
-    
-    .gmap_canvas {
-        overflow: hidden;
-        background: none !important;
-        height: 300px;
-        width: 330px;
+
+    .banner2 {
+        display: none;
     }
+
 }
