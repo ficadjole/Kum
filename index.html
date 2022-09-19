@@ -60,14 +60,16 @@
                 <h1 class="title">Kolašinska 31</h1>
                 <div class="nav">
                     <a href="#location" class="btn btn-outline-dark btn-style">Lokacija</a>
-                    <a href="#question" class="btn btn-outline-dark btn-style">Pitanje</a>
-                    <a class="btn btn-outline-dark btn-style">nesto lepo</a>
+                    <a href="#location" class="btn btn-outline-dark btn-style">Ponuda</a>
+                    <a href="#location" class="btn btn-outline-dark btn-style">Katalog</a>
+                    <a href="#gallery" class="btn btn-outline-dark btn-style">Galerija</a>
+                    <a href="#location" class="btn btn-outline-dark btn-style" style="margin-left: 120px;">Pozovite nas</a>
                 </div>
 
 
                 <div class="projekat">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col">
                             <div id="carouselExampleControls" class="carousel slide carousel-fade"
                                 data-bs-ride="carousel">
                                 <div class="carousel-inner">
@@ -93,48 +95,44 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <ul>
+                     <div class="col-md-6">
+                           <!--  <ul>
                                 <li>Kolašinska 31</li>
                                 <li>Kraj radova: Oktobar 2023.</li>
                             </ul>
                             <div class="row">
                                 <div class="col-md-6">
-                                    <a href="tel://0644846900" class="btn btn-dark btn-info text-color">Pozovite nas</a>
+                                    <a href="tel://0644846900"
+                                        class="btn btn-outline-dark text-color btn-style "><ion-icon name="call-outline"></ion-icon>Pozovite nas</a>
                                 </div>
                                 <div class="col-md-6 second-btn">
                                     <a href="pdfs/Katalog Kolasinska 31.pdf" download="Katalog Kolasinska 31"
-                                        class="btn btn-dark btn-info text-color">Preuzmite katalog</a>
+                                        class="btn btn-outline-dark text-color btn-style">Preuzmite katalog</a>
                                 </div>
                             </div>
                             <div class="row mt-4">
                                 <div class="col-md-6">
-                                    <a href="mailto:info@kolasinska31.rs" class="btn btn-dark btn-info text-color">Posaljite mejl</a>
+                                    <a href="mailto:info@kolasinska31.rs"
+                                        class="btn btn-outline-dark text-color btn-style">Posaljite mejl</a>
                                 </div>
+                            </div> --> 
+                            <p>Kraj radova: Oktobar 2023.</p>
+                            <div class="container6">
+                                <form target="_blank" action="https://formsubmit.co/263be7cafa6375eaf01263f75f9bda42" method="POST">
+                                    <input type="hidden" name="_template" value="table">
+                                    <input type="Ime i prezime" name="Ime i prezime" class="form-control"
+                                        placeholder="Vase ime i prezime" required>
+                                    <input type="email" name="email" class="form-control" placeholder="Vasa e-posta" required>
+                                    <input type="text" name="Naslov poruke" class="form-control" placeholder="Broj telefona"
+                                        required>
+                                        
+                                    <input type="text" name="Poruka" class="form-control poruka" placeholder="Vasa poruka" required>
+                                    <button type="submit" class="btn btn-dark btn-block">Posaljite upit</button>
+                                </form>
                             </div>
-
-                        </div>
+                        </div> 
                     </div>
                 </div>
-
-                <div class="container3">
-                    <div class="row">
-                        <div class="col-md-6 prednja">
-                            <svg class="svg-r" width="25" height="25">
-                                <a class="btn" type="button" data-toggle="popover" data-container="body" title="image1"
-                                    data-bs-content="<img src='images/email.png'>" data-placement="right">
-                                    <circle cx="17.5" cy="17.5" r="10" fill="yellow" />
-                                </a>
-                            </svg>
-                        </div>
-                        <div class="col-md-6 prednja">
-
-                        </div>
-                    </div>
-
-                </div>
-
-
 
                 <!--Lokacija-->
                 <div class="d-flex justify-content-center">
@@ -166,34 +164,73 @@
                         <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
                                 marginheight="0" marginwidth="0"
                                 src="https://maps.google.com/maps?width=885&amp;height=400&amp;hl=en&amp;q=Kolasinska 31&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-                                <a href="https://embedmapgenerator.com/">embed google maps in website</a>
-                            
+                            <a href="https://embedmapgenerator.com/">embed google maps in website</a>
+
                         </div>
-                        
+
                     </div>
                 </div>
 
-
-                <!--Upit-->
                 <div class="d-flex justify-content-center">
                     <div class="titles mb-4">
-                        <h2 class="text-color text-center text-uppercase mt-4" id="question">Upit</h2>
+                        <h2 class="text-color text-center text-uppercase mt-4" id="question">Ponuda</h2>
                     </div>
                 </div>
-                <div class="container6">
-                    <form target="_blank" action="https://formsubmit.co/263be7cafa6375eaf01263f75f9bda42" method="POST">
-                        <input type="hidden" name="_template" value="table">
-                        <input type="Ime i prezime" name="Ime i prezime" class="form-control" placeholder="Vase ime"
-                            required>
-                        <input type="email" name="email" class="form-control" placeholder="Vasa e-posta" required>
-                        <input type="text" name="Naslov poruke" class="form-control" placeholder="Naslov poruke"
-                            required>
-                        <input class="poruka" type="text" name="Poruka" class="form-control" placeholder="Vasa poruka"
-                            required>
-                        <button type="submit" class="btn btn-dark btn-block">Submit Form</button>
-                    </form>
+
+                <div class="container3">
+                    <div class="row">
+                        <div class="col-md-6 prednja">
+                            <svg class="svg-r" width="25" height="25">
+                                <a class="btn" type="button" data-toggle="popover" data-container="body" title="image1"
+                                    data-bs-content="<img src='images/email.png'>" data-placement="right">
+                                    <circle cx="17.5" cy="17.5" r="10" fill="yellow" />
+                                </a>
+                            </svg>
+                        </div>
+                        <div class="col-md-6 prednja">
+
+                        </div>
+                    </div>
+
                 </div>
 
+
+
+                
+
+
+                
+
+                <!--Galerija-->
+                <div class="d-flex justify-content-center">
+                    <div class="titles mb-4">
+                        <h2 class="text-color text-center text-uppercase mt-4" id="gallery">Galerija</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                        <img src="images/image1.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                            alt="Boat on Calm Water" />
+
+                        <img src="images/image2.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                            alt="Wintry Mountain Landscape" />
+                    </div>
+
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                        <img src="images/image3.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                            alt="Mountains in the Clouds" />
+
+                        <img src="images/image5.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                            alt="Boat on Calm Water" />
+                    </div>
+
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                        <img src="images/image1.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
+
+                        <img src="images/image7.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                            alt="Yosemite National Park" />
+                    </div>
+                </div>
             </div>
 
             <!--Banner-->
@@ -233,7 +270,8 @@
         </div>
     </div>
 
-
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
         integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous">
     </script>
