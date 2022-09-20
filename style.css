@@ -49,7 +49,7 @@ input {
 
 .title {
     text-align: center;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 .title1{
     margin-top: 2%;
@@ -86,8 +86,6 @@ ul {
     padding: 0px;
 }
 
-
-
 .titles {
     border-bottom: 2px solid #fdc90e;
 }
@@ -110,10 +108,6 @@ ul {
     height: 400px !important;
 }
 
-.btn-style{
-    border-radius: 0px;
-
-}
 
 @media (max-width:992px) {
     .second-btn {
