@@ -144,5 +144,12 @@ ul {
     }
     .btn-down{
         margin-top: 2%;
+        padding: 0px !important;
+    }
+    .btn-up{
+        padding: 0px !important;
+    }
+    .btn-down-left{
+        margin-left: 14px;
     }
 }
