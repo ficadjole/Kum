@@ -153,3 +153,9 @@ ul {
         margin-left: 14px;
     }
 }
+
+@media(max-width:380px){
+    .btn-down-left{
+        margin-left: 0px;
+    }
+}
