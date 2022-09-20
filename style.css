@@ -108,6 +108,9 @@ ul {
     height: 400px !important;
 }
 
+p{
+    font-size: 18px;
+}
 
 @media (max-width:992px) {
     .second-btn {
