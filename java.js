@@ -1,5 +1,6 @@
 $(document).ready(function(){
     $('[data-toggle="popover"]').popover({
+         placement: 'right',
          trigger: 'click', 
          html: true,
          content: function () {
@@ -7,5 +8,9 @@ $(document).ready(function(){
          },       
    }) 
 });
+
+function black(){
+      filip.classList.add('bg-dark');
+}
 
 

@@ -111,6 +111,15 @@ ul {
 p{
     font-size: 18px;
 }
+
+.popover{
+    max-width: 1000px !important;
+}
+
+.mobile-location{
+    display: none;
+}
+
 @media (max-width:1400px){
     p{
         font-size: 16px;
@@ -134,12 +143,11 @@ p{
     }
 }
 
-@media (max-width:450px) {
+@media (max-width:480px) {
 
     .banner1 {
         display: none;
     }
-
     .banner2 {
         display: none;
     }
@@ -152,6 +160,21 @@ p{
     }
     .btn-down-left{
         margin-left: 14px;
+    }
+    .mobile-location{
+        display:block !important;
+    }
+    .container6{
+        display: none !important;
+    }
+    .conatiner5{
+        display: block !important;
+    }
+    .mobile-location-none{
+        display: none !important;
+    }
+    .popover{
+        max-width: 237px !important;
     }
 }
 
