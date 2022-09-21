@@ -1,6 +1,11 @@
-var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-toggle="popover"]'));
-var popoverList = popoverTriggerList.map(function (popoverTrigger) {
-    return new bootstrap.Popover(popoverTrigger);
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover({
+         trigger: 'click', 
+         html: true,
+         content: function () {
+               return '<img class="img-fluid" src="'+$(this).data('img') + '" />';
+         },       
+   }) 
 });
 
 
