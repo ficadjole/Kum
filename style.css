@@ -7,10 +7,6 @@ body {
     background-color: rgba(164, 216, 81, 0.226);
 }
 
-.boja{
-    background-color: rgb(234,246,215);
-    padding-bottom: 2%;
-}
 
 .nav {
     display: block;
@@ -24,7 +20,6 @@ body {
 
 .projekat {
     margin-bottom: 20px;
-    margin-top: 20px;
     padding: 5px;
 }
 
@@ -124,6 +119,30 @@ p{
 .mobile-location{
     display: none;
 }
+
+.navbar-editing{
+    display: block;
+    background-color: rgb(234,246,215);
+    padding-bottom: 2%;
+}
+
+.color-text{
+    color: black;
+    padding: 0px !important;
+}
+
+.color-text:hover{
+    color: white;
+}
+
+.margin-btn{
+    margin-right: 10px;
+}
+
+.x{
+    color: #eaf6d7;
+}
+
 
 @media (max-width:1400px){
     p{
