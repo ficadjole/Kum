@@ -123,16 +123,14 @@ p{
 .navbar-editing{
     display: block;
     background-color: rgb(234,246,215);
-    padding-bottom: 2%;
 }
 
 .color-text{
     color: black;
-    padding: 0px !important;
 }
 
 .color-text:hover{
-    color: white;
+    color: black;
 }
 
 .margin-btn{
@@ -142,8 +140,13 @@ p{
 .x{
     color: #eaf6d7;
 }
+.computer-visable{
+    display: none;
+}
 
-
+.kontakt a{
+    font-size: 30px;
+}
 @media (max-width:1400px){
     p{
         font-size: 16px;
@@ -199,6 +202,15 @@ p{
     }
     .popover{
         max-width: 200px !important;
+    }
+    .title{
+        display: none;
+    }
+    .computer-visable{
+        display: block;
+    }
+    .mobile-tel-mail-none{
+        display: none;
     }
 }
 
