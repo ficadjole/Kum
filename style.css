@@ -147,6 +147,17 @@ p{
 .kontakt a{
     font-size: 30px;
 }
+.prizemlje{
+    background-image: url("images/prizemlje.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.sprat{
+    background-image: url("images/sprat1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 @media (max-width:1400px){
     p{
         font-size: 16px;
