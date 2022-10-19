@@ -35,26 +35,26 @@ a {
 
 .svg-u1 {
     position: absolute;
-    left: 25%;
+    left: 18%;
     top: 30%;
 }
 
 .svg-u2 {
     position: absolute;
-    left: 60%;
-    top: 30%;
+    left: 68%;
+    top: 25%;
 }
 
 .svg-d1 {
     position: absolute;
-    left: 60%;
-    top: 65%;
+    left: 65%;
+    top: 75%;
 }
 
 .svg-d2{
     position: absolute;
-    left: 25%;
-    top: 65%;
+    left: 38%;
+    top: 68%;
 }
 
 .poruka {
@@ -219,7 +219,7 @@ p {
 .imp-zoom-wrap img{
     max-width: 100% !important;
     max-height: 100% !important;
-}
+} 
 
 .popover {
     width: 900px;
