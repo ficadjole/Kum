@@ -34,27 +34,55 @@ a {
 
 .svg-u1 {
     position: absolute;
-    left: 18%;
+    left: 25%;
     top: 30%;
 }
 
 .svg-u2 {
     position: absolute;
-    left: 68%;
+    left: 60%;
     top: 25%;
 }
 
 .svg-d1 {
     position: absolute;
     left: 65%;
-    top: 75%;
+    top: 58%;
 }
 
 .svg-d2{
     position: absolute;
     left: 38%;
-    top: 68%;
+    top: 60%;
 }
+
+.svg-ul1 {
+    position: absolute;
+    left: 16%;
+    top: 25%;
+}
+
+.svg-ul2 {
+    position: absolute;
+    left: 65%;
+    top: 25%;
+}
+
+.svg-dl1 {
+    position: absolute;
+    left: 65%;
+    top: 62%;
+}
+
+.svg-dl2{
+    position: absolute;
+    left: 38%;
+    top: 62%;
+}
+
+
+
+
 
 .poruka {
     width: 100%;
