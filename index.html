@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body id="page-top" onload="translate('srb','lng-tag')">
 
     <!--main-->
 
@@ -37,7 +37,7 @@
                     <div class="container10">
                         <div class="row">
                             <div class="col-8 col-md-12">
-                                <h2 class="title1 text-uppercase" lng-tag="kolasinska31">Kolašinska 31</h2>
+                                <h2 class="title1 text-uppercase">Kolašinska 31</h2>
                                 <p class="title" lng-tag="oktobar2023">Oktobar 2023.</p>
                             </div>
                             <div class="col-4">
@@ -56,7 +56,7 @@
                                         href="#location" lng-tag="location">Lokacija</a>
                                 </li>
                                 <li class="nav-item me-2">
-                                    <a class="nav-link active color-text" aria-current="page" href="#bid" lng-tag="bit">Ponuda</a>
+                                    <a class="nav-link active color-text" aria-current="page" href="#bid" lng-tag="bid">Ponuda</a>
                                 </li>
 
                                 <li class="nav-item me-2">
@@ -77,9 +77,22 @@
                                         <ion-icon name="mail" class="me-1"></ion-icon>info@kolasinska31.rs
                                     </a>
                                 </li>
-                                <li class="nav-item computer-visable">
-
+                                <li class="nav-item">
+                                    <a id="enTranslator" class="nav-link active color-text btn">
+                                        ENG
+                                    </a>
                                 </li>
+                                <li class="nav-item">
+                                    <a id="rusTranslator" class="nav-link active color-text btn">
+                                        РУС
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="srbTranslator" class="nav-link active color-text btn">
+                                        SRB
+                                    </a>
+                                </li>
+                                
                             </ul>
                         </div>
                     </div>
@@ -127,20 +140,20 @@
                                         </h2>
                                     </div>
                                 </div>
-                                <div class="container3" lng-tag="location_text">
-                                    <p>
+                                <div class="container3">
+                                    <p lng-tag="location_text1">
                                         Objekat se nalazi na Lekinom (Pašinom) brdu i pruža jedinstven spoj mirnog
                                         gradskog života
                                         i prirode.
                                     </p>
-                                    <p>Na samo četiri minuta hoda nalazi se park Šumice. Ova gradska oaza je idealna za
+                                    <p lng-tag="location_text2">Na samo četiri minuta hoda nalazi se park Šumice. Ova gradska oaza je idealna za
                                         rekreaciju,
                                         razonodu sa decom ili kućnim ljubimcima. Park se prostire na četrnaest hektara
                                         sa skoro
                                         sedam kilometara uređenih
                                         staza i sadrži dečije igralište opremljeno novim rekvizitima,
                                     </p>
-                                    <p>
+                                    <p lng-tag="location_text3">
                                         Lokacija je pogodna za porodični život. U krugu od pet minuta hoda nalaze se
                                         vrtići,
                                         osnovna škola
@@ -149,10 +162,10 @@
                                         dve osnovne
                                         škole i II ekonomska srednja škola.
                                     </p>
-                                    <p>
+                                    <p lng-tag="location_text4">
                                         U krugu od deset minuta nalaze se dom zdravlja, supermarketi, apoteke, itd.
                                     </p>
-                                    <p>
+                                    <p lng-tag="location_text5">
                                         Blizina autoputa nudi odličnu povezanost sa ostalim delovima grada. Sa centrom
                                         grada lokacija je
                                         povezana linijama 22, 25 i 26.
@@ -177,28 +190,32 @@
                             <h2 class="text-color text-center text-uppercase mt-2" id="location" lng-tag="location">Lokacija</h2>
                         </div>
                     </div>
-                    <div class="container3" lng-tag="location_text">
-                        <p>
-                            Objekat se nalazi na Lekinom brdu i pruža jedinstven spoj mirnog gradskog života
+                    <div class="container3">
+                        <p lng-tag="location_text1">
+                            Objekat se nalazi na Lekinom (Pašinom) brdu i pruža jedinstven spoj mirnog
+                            gradskog života
                             i prirode.
                         </p>
-                        <p>Na samo četiri minuta hoda nalazi se park Šumice. Ova gradska oaza je idealna za
+                        <p lng-tag="location_text2">Na samo četiri minuta hoda nalazi se park Šumice. Ova gradska oaza je idealna za
                             rekreaciju,
-                            razonodu sa decom ili kućnim ljubimcima. Park se prostire na četrnaest hektara sa skoro
+                            razonodu sa decom ili kućnim ljubimcima. Park se prostire na četrnaest hektara
+                            sa skoro
                             sedam kilometara uređenih
                             staza i sadrži dečije igralište opremljeno novim rekvizitima,
                         </p>
-                        <p>
-                            Lokacija je pogodna za porodični život. U krugu od pet minuta hoda nalaze se vrtići,
+                        <p lng-tag="location_text3">
+                            Lokacija je pogodna za porodični život. U krugu od pet minuta hoda nalaze se
+                            vrtići,
                             osnovna škola
-                            'Dušan Dugalić', VIII Gimnazija, muzička škola, a u krugu od deset minuta se nalaze još
+                            'Dušan Dugalić', VIII Gimnazija, muzička škola, a u krugu od deset minuta se
+                            nalaze još
                             dve osnovne
                             škole i II ekonomska srednja škola.
                         </p>
-                        <p>
+                        <p lng-tag="location_text4">
                             U krugu od deset minuta nalaze se dom zdravlja, supermarketi, apoteke, itd.
                         </p>
-                        <p>
+                        <p lng-tag="location_text5">
                             Blizina autoputa nudi odličnu povezanost sa ostalim delovima grada. Sa centrom
                             grada lokacija je
                             povezana linijama 22, 25 i 26.
@@ -227,18 +244,18 @@
                     <!--Skica-->
 
                     <div class="container-fluid">
-                        <div class="text" lng-tag="bid_text">
-                            <p>Prostrani stanovi sa funkiconalnim i modernim rasporedom (master kupatilo, vešeraj,
+                        <div class="text" >
+                            <p lng-tag="bid_text1">Prostrani stanovi sa funkiconalnim i modernim rasporedom (master kupatilo, vešeraj,
                                 ostave). </p>
-                            <p>Moguća kupovina parkinga (garažno mesto ili klackalica).</p>
+                            <p lng-tag="bid_text2">Moguća kupovina parkinga (garažno mesto ili klackalica).</p>
                             <div class="text-svg d-flex">
-                                <p>Klikni te </p>
+                                <p lng-tag="bid_text3">Klikni te </p>
                                 <svg width="30" height="30">
                                     <a class="btn btn-primary" type="button" data-placement="right">
                                         <circle cx="17.5" cy="17.5" r="10" fill="#66ff66" />
                                     </a>
                                 </svg>
-                                <p> za više informacija </p>
+                                <p lng-tag="bid_text4"> za više informacija </p>
                             </div>
 
                         </div>
@@ -396,7 +413,7 @@
 
                                     <input type="text" name="Poruka" class="form-control poruka"
                                         placeholder="Vasa poruka" required>
-                                    <button type="submit" class="btn btn-dark btn-block">Posaljite upit</button>
+                                    <button type="submit" class="btn btn-dark btn-block" lng-tag="send_msg">Posaljite upit</button>
                                 </form>
                             </div>
                         </div>
@@ -423,13 +440,13 @@
                     <a href="#location">
                         <img src="images/location.png" alt="location">
                     </a>
-                    <p class="mt-2">Gde se nalazimo</p>
+                    <p class="mt-2" lng-tag="location_txt">Gde se nalazimo</p>
                 </div>
                 <div class="col-md-4 col-lg-4 pt-4 text-center footer-top-content">
                     <a href="tel://063646648">
                         <img src="images/phone.png" alt="question">
                     </a>
-                    <p class="mt-2">Telefon</p>
+                    <p class="mt-2" lng-tag="phone">Telefon</p>
                 </div>
                 <div class="col-md-4 col-lg-4 pt-4 text-center footer-top-content">
                     <a href="mailto:info@kolasinska31.rs">
@@ -454,6 +471,8 @@
     </script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.js"></script>
+    <script src="js/translate.js"></script>
+    <script src="js/index.js"></script>
     <script src="js/java.js"></script>
 
 </body>
