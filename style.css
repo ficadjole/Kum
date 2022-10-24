@@ -26,12 +26,6 @@ a {
     text-decoration: none;
 }
 
-.prednja {
-    background-image: url("images/pomocna slika.png");
-    background-repeat: no-repeat;
-    height: 750px;
-}
-
 .svg-u1 {
     position: absolute;
     left: 25%;
@@ -79,10 +73,6 @@ a {
     left: 38%;
     top: 62%;
 }
-
-
-
-
 
 .poruka {
     width: 100%;
