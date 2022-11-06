@@ -4,8 +4,8 @@
     "bid": "Ponuda",
     "gallery": "Galerija",
     "contact": "Kontakt",
-    "location_text1":"Objekat se nalazi u mirnoj ulici na najvišoj tački Lekinog brda i u neposrednoj blizini Hrama Preobraženja Gospodnjeg.",
-    "location_text2":"Položaj nudi jedinstven spoj gradskog života i prirode. Park Šumice, gradska oaza na samo četiri minuta hoda, je idealan za rekreaciju i razonodu sa decom ili kućnim ljubimcima. Park se prostire na četrnaest hektara sa skoro sedam kilometara uređenih staza i sadrži dečije igralište opremljeno novim rekvizitima. U parku se nalazi i sportski centar 'Šumice', dok su u neposrednoj blizini zgrade zatvoreni bazen i spa.",
+    "location_text1":"Zgrada se nalazi u mirnoj ulici na najvišoj tački Lekinog brda i u neposrednoj blizini Hrama Preobraženja Gospodnjeg.",
+    "location_text2":"Položaj nudi jedinstven spoj gradskog života i prirode. Park Šumice gradska oaza na samo četiri minuta hoda, je idealan za rekreaciju i razonodu sa decom ili kućnim ljubimcima. Park se prostire na četrnaest hektara sa skoro sedam kilometara uređenih staza i sadrži dečije igralište opremljeno novim rekvizitima. U parku se nalazi i sportski centar 'Šumice', dok su u neposrednoj blizini zgrade zatvoreni bazen i spa.",
     "location_text3":"Lokacija je pogodna za porodični život. U krugu od pet minuta hoda nalaze se vrtići, osnovna škola 'Dušan Dugalić', VIII Gimnazija, muzička škola i zatvoreni bazen za decu, dok se u krugu od deset minuta nalaze još dve osnovne škole i II ekonomska srednja škola i sportski centar sa brojnim aktivnostima za decu.",
     "location_text4":"Blizina auto-puta i gradskog prevoza (linije 22,25,26,46 i 55) pruža odličnu povezanost sa svim delovima grada.",
     "location_text5":"U blizini su nalaze supermarketi, pošta, dom zdravlja, apoteke, pijaca.",
@@ -19,4 +19,5 @@
     "send_msg":"Posaljite upit",
     "location_txt":"Gde se nalazimo",
     "phone":"Telefon"
+    
 }
