@@ -293,6 +293,10 @@ p {
         display: none;
     }
 
+    .br{
+        font-size: 20px;
+    }
+
     .kontakt a {
         font-size: 22px;
     }
